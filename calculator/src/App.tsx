@@ -9,6 +9,9 @@ import {
   Switch,
   SwitchContainer,
   Switcher,
+  Input,
+  ButtonContainer,
+  Button,
 } from './App.style';
 
 function App() {
@@ -32,6 +35,43 @@ function App() {
             </Switch>
           </WrapperSwitch>
         </Header>
+        <Input></Input>
+        <ButtonContainer>
+          <Button>7</Button>
+          <Button>8</Button>
+          <Button>9</Button>
+          <Button>DEL</Button>
+
+          <Button>4</Button>
+          <Button>5</Button>
+          <Button>6</Button>
+          <Button>+</Button>
+
+          <Button>1</Button>
+          <Button>2</Button>
+          <Button>3</Button>
+          <Button>-</Button>
+
+          <Button>.</Button>
+          <Button>0</Button>
+          <Button>/</Button>
+          <Button>x</Button>
+
+          <Button
+            gc="1/3"
+            color="var(--white)"
+            bg="var(--key-background-blue)"
+            bdbox="var(--key-shadow-dark-blue)">
+            RESET
+          </Button>
+          <Button
+            gc="3/5"
+            color="var(--white)"
+            bg="var(--key-background-red)"
+            bdbox="var(--key-shadow-dark-blue)">
+            =
+          </Button>
+        </ButtonContainer>
       </Container>
     </>
   );
