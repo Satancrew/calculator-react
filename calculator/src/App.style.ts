@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components';
+import styled from 'styled-components';
 
 type Theme = {
   theme: string;
@@ -32,6 +32,7 @@ export const Header = styled(Flex)`
   justify-content: space-between;
   color: var(--white-text);
   font-size: 1.2rem;
+  align-items: flex-end;
 `;
 
 export const WrapperSwitch = styled(Flex)`

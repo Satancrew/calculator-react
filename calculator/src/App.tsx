@@ -18,7 +18,6 @@ function App() {
   const [value, setValue] = useState('');
   const [theme, setTheme] = useState(1);
   const [themeValue, setThemeValue] = useState('8%');
-  console.log(value.length);
 
   const handleTheme = () => {
     if (theme === 1) {
